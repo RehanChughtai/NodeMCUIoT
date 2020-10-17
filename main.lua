@@ -1,0 +1,5 @@
+local myIO = require "myIO" myIO.gpioInit()
+local module = require "module" module.func()
+print(module.value)
+myIO.setLED(1)
+myIO.setLED(0)
